@@ -1,0 +1,16 @@
+{
+  "name": "eleventy-domdiff-postcss",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.4",
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  }
+}
